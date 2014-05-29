@@ -1,6 +1,7 @@
-#Journal Project ### a modern day password journal
+#Journal Project 
+### a modern day password journal
 
-#To Do:
+##To Do:
 - [X] Start the project
 - [X] Add a facebook login
 	- [ ] Associate Facebook Login w/ Account
