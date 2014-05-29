@@ -1,5 +1,5 @@
 #Journal Project 
-### a modern day password journal
+This is a modern day secret password journal inspired by the stupid one I had as a teenageer that broke and I lost all my secrets. (:
 
 ##To Do:
 - [X] Start the project
