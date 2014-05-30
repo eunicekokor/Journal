@@ -4,11 +4,22 @@
   <link href="style.css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="http://connect.soundcloud.com/sdk.js"></script>
   <title>Journal</title>
 </head>
 
 
 <body>
+<script>
+SC.initialize({
+  client_id: 'b84d0afa9a6bec5eca014678af8522c1'
+});
+
+var track_url = 'https://soundcloud.com/nprgenerationlisten/juans-teenage-diary-1996';
+SC.oEmbed(track_url, { auto_play: true }, function(oEmbed) {
+  console.log('oEmbed response: ' + oEmbed);
+});
+</script>
 
 <div id="fb-root"></div>
     <script>
