@@ -1,0 +1,60 @@
+html {
+  font-family: 'Roboto Slab', serif;
+  background: #B5D4EC; /*#C4D8E2*/
+  max-width: 600px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+script {
+  margin: 0 auto;
+}
+
+button {
+width: 600px;
+height: 75px;
+font-size: 60px;
+font-weight: bold;
+border-radius: 25px;
+border: 0;
+background: #84B0D2;
+}
+
+h1 {
+  font-size: 75px;
+  line-height: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 5px;
+}
+
+#title {
+  display: inline-block;
+  width: 600px;
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+  line-height: 25px;
+  color: gray;
+  background: #E4F1FB;
+}
+
+.flow {
+  height: 500px;
+  width: 600px;
+  margin: 0 auto;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  line-height: 25px;
+  resize: none;
+  overflow-y: hidden;
+  background: #E4F1FB;
+}
+
+#fb-root {
+  height: 1px;
+  width: 1px;
+  display: inline-block;
+}
