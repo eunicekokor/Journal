@@ -1,13 +1,17 @@
 html {
   font-family: 'Roboto Slab', serif;
-  background: white; /*#C4D8E2*/
+  background: #C4D8E2; /*#C4D8E2*/
   max-width: 600px;
   display: inline-block;
   margin: 0 auto;
 }
 
+script {
+  margin: 0 auto;
+}
+
 button {
-width: 500px;
+width: 600px;
 height: 100px;
 font-size: 60px;
 }
@@ -28,7 +32,7 @@ h2 {
   font-size: 24px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  background: rgba(255, 255, 255, 1);
+  background: #E4F1FB;
   margin: auto;
   text-align: center;
   line-height: 25px;
