@@ -10,10 +10,6 @@ script {
   margin: 0 auto;
 }
 
-form {
-  background: #E4F1FB;
-}
-
 button {
 width: 600px;
 height: 75px;
@@ -38,25 +34,23 @@ h2 {
   display: inline-block;
   width: 600px;
   font-size: 24px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  background: #E4F1FB;
   margin: auto;
   text-align: center;
   line-height: 25px;
   color: gray;
+  background: #E4F1FB;
 }
 
 .flow {
   height: 500px;
   width: 600px;
   margin: 0 auto;
-  background: rgba(255, 255 , 255, 0.5);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   line-height: 25px;
   resize: none;
   overflow-y: hidden;
+  background: #E4F1FB;
 }
 
 #fb-root {
