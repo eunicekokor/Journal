@@ -10,18 +10,13 @@
 
 
 <body>
+<div id="putTheWidgetHere"></div>
+<script type="text/JavaScript">
+  SC.oEmbed("https://soundcloud.com/nprgenerationlisten/juans-teenage-diary-1996", {color: "ff0066"}, { auto_play: true }, document.getElementById("putTheWidgetHere"));
+</script>
 
 <div id="fb-root"></div>
     <script>
-    SC.initialize({
-      client_id: 'b84d0afa9a6bec5eca014678af8522c1'
-    });
-
-    var track_url = 'https://soundcloud.com/nprgenerationlisten/juans-teenage-diary-1996';
-    SC.oEmbed(track_url, { auto_play: true }, function(oEmbed) {
-      console.log('oEmbed response: ' + oEmbed);
-    });
-
 function addZero(i) {
     if (i < 10) {
         i = "0" + i;
@@ -90,7 +85,7 @@ month[11] = "December";
   return false;
 });
     </script>
-
+    <div id ="player"></div>
   <h1> Journal. </h1>
   <h2> <em>your</em> stories. <em>your</em> voice. </h2>
 <fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
