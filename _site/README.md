@@ -6,7 +6,7 @@ This is a modern day secret password journal inspired by the stupid one I had as
 - [X] Add a facebook login
 	- [ ] Associate Facebook Login w/ Account
 - [X] Figure out general UI schema
-- [ ] Add Date & Time
+- [X] Add Date & Time
 	- [ ] Associate Date & Time with posts
 - [ ] Add User Accounts
 - [ ] Associate Posts with Accounts
